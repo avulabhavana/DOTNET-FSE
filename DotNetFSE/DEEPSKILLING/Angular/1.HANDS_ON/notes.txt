@@ -1,0 +1,36 @@
+1. angular.json
+Contains Angular project configuration such as build, serve and assets.
+
+2. tsconfig.json
+Main TypeScript configuration file.
+
+3. tsconfig.app.json
+TypeScript configuration used for the Angular application.
+
+4. package.json
+Contains project metadata, dependencies and npm scripts.
+
+5. src/main.ts
+Entry point of the Angular application.
+
+6. src/app/app.config.ts
+Application configuration for standalone Angular.
+
+7. src/app/app.component.ts
+Root component of the application.
+
+8. src/index.html
+Main HTML page loaded by the browser.
+
+"budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "500kB",
+                  "maximumError": "1MB"
+                },
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "4kB",
+                  "maximumError": "8kB"
+                }
+              ]
